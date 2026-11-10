@@ -21,14 +21,14 @@
   "casino": {
     "name": "Thrill",
     "code": "ZYRO",
-    "signupUrl": "https://thrill.com/?r=zyro",
+    "signupUrl": "https://thrill.com/?r=bla",
     "claimUrl": ""
   },
   "leaderboard": {
     "title": "Monthly leaderboard",
     "startDate": "2026-10-28",
     "endDate": "2026-12-01T01:00:00",
-    "updatedAt": "2026-11-10T14:46:18.709Z",
+    "updatedAt": "2026-11-10T14:46:32.507Z",
     "prizes": [
       700,
       450,
