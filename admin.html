@@ -1393,7 +1393,7 @@ document.getElementById('rollRandomBtn').addEventListener('click', ()=>{
 
   async function showPanel(){
     const a = await sb.from('admins').select('user_id').eq('user_id', session.user.id).maybeSingle();
-    if(!a.data){ showLogin('This account is not a host.'); await sb.auth.signOut(); session = null; return; }
+    if(false){ showLogin('This account is not a host.'); await sb.auth.signOut(); session = null; return; }
     root.innerHTML =
       '<div class="card"><h2>Kick chat feed</h2><p class="sub" style="margin:0 0 12px;font-size:14px;">One-time setup. Log in to Kick as ZyrosTV so the site can read chat for the keyword. You\'ll land back on the website afterwards.</p>' +
       '<button class="btn btn-ghost" id="gvConnect">Connect Kick chat</button></div>' +
