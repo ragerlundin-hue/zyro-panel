@@ -25,10 +25,10 @@
     "claimUrl": ""
   },
   "leaderboard": {
-    "title": "Monthly leaderboard",
+    "title": "Daily leaderboard",
     "startDate": "2026-10-28",
     "endDate": "2026-12-01T01:00:00",
-    "updatedAt": "2026-11-10T14:47:17.236Z",
+    "updatedAt": "2026-11-10T14:47:24.222Z",
     "prizes": [
       750,
       450,
